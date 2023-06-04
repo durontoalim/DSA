@@ -1,3 +1,14 @@
+/*
+MergeSort(A, p, r):
+    if p > r 
+        return
+    q = (p+r)/2
+    mergeSort(A, p, q)
+    mergeSort(A, q+1, r)
+    merge(A, p, q, r)
+
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -46,8 +57,6 @@ void merge(int arr[], int left, int mid, int right){
         j++;
         k++;
     }
-    
-    
 }
 
 void merge_sort(int arr[], int left, int right){
@@ -76,3 +85,17 @@ int main()
     
     return 0;
 }
+
+/* 
+
+Time Complexity
+Best Case Complexity: O(n*log n)
+
+Worst Case Complexity: O(n*log n)
+
+Average Case Complexity: O(n*log n)
+
+Space Complexity
+The space complexity of merge sort is O(n).
+
+*/

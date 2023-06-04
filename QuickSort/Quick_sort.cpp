@@ -41,3 +41,18 @@ int main()
 
     return 0;
 }
+
+
+
+
+/*
+
+Quicksort Complexity
+Time Complexity	 
+Best	O(n*log n)
+Worst	O(n2)
+Average	O(n*log n)
+Space Complexity	O(log n)
+Stability	No
+
+*/
